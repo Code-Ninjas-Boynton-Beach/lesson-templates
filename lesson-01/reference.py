@@ -132,7 +132,6 @@ a = 1
 b = 2
 print(a > b) # Prints False because 1 is not greater than 2
 
-# Make three variables and compare then with at least 4 different conditional operators and 2 different logical operators
+# Make three variables and compare then with 4 different conditional operators
 # At least one should print true and one should print false
 
-# Kids can do whatever here

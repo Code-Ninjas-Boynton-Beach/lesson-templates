@@ -10,11 +10,14 @@ print(name)
 """
 Variable Names
 A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
+
 Rules for Python variables:
+
 A variable name must start with a letter or the underscore character
 A variable name cannot start with a number
 A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 Variable names are case-sensitive (age, Age and AGE are three different variables)
+
 Legal variable names:
 myvar = "John"
 my_var = "John"
@@ -22,10 +25,12 @@ _my_var = "John"
 myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
+
 Illegal variable names:
 2myvar = "John"
 my-var = "John"
 my var = "John"
+
 """
 
 # Adding Strings together:
@@ -33,7 +38,6 @@ my var = "John"
 print("hello " + "world")
 
 # Make a variable called greeting that says hello before the name variable, and then print it
-
 
 # Setting a string variable to input:
 your_name = input()
@@ -59,11 +63,9 @@ print(c) # Does the same thing
 # Make variables d and e, d is equal to 5, e is equal to 10
 # print d - e without making a new variable
 
-
 # Make variables my_num and my_other_num, set these variables to whatever number you want
 # Make a variable called quotient that is equal to my_num times my_other_num
 # print quotient - 1
-
 
 # Adding strings and numbers
 print(3 + "4") # Doesn't work because these two values are of different types
@@ -120,5 +122,7 @@ a = 1
 b = 2
 print(a > b) # Prints False because 1 is not greater than 2
 
-# Make three variables and compare then with at least 4 different conditional operators and 2 different logical operators
+# Make three variables and compare then with 4 different conditional operators
 # At least one should print true and one should print false
+
+
