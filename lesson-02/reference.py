@@ -23,7 +23,11 @@ else:
 
 
 # boolean reivew
-my_bool = (a >= a) # my_bool = a >= a is valid too, but I prefer using parentheticals
+a = 3
+b = 3
+# Returns true because a is equal to b
+my_bool = (a >= b) or (a != 3) # my_bool = a >= b or a != 3 is valid too, but I prefer using parentheticals
+
 
 # if statements
 if my_bool:
@@ -48,6 +52,7 @@ else:
 
 # Take in 2 numbers, print out the smallest number
 # If one of the numbers is 0 print bazinga!
+# Numbers will not be equal to each other
 # One way of doing it:
 a = int(input())
 b = int(input())
@@ -77,13 +82,13 @@ else:
     print("lesser")
 
 # find the issue with this code
-# number = 101
-# if number > 50:
-#     print("number is greater than 50 but not greater than 100")
-# elif number > 100:
-#     print("number is greater than 100")
-# else:
-#     print("number is not greater than 50 or 100")
+number = 101
+if number > 50:
+    print("number is greater than 50 but not greater than 100")
+elif number > 100:
+    print("number is greater than 100")
+else:
+    print("number is not greater than 50 or 100")
 
 # It will never print the number is greater than 100 if it is
 
